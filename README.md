@@ -22,30 +22,20 @@ MySQL / PostgreSQL: Basis data untuk menyimpan data pengguna dan lainnya.
 Postman: Untuk pengujian endpoint API.
 Cara Menggunakan
 Clone repository ini:
-bash
-Copy
-Edit
+
 git clone https://github.com/username/repo-name.git
 Instal dependensi:
-bash
-Copy
-Edit
+
 composer install
 Salin .env.example ke .env dan sesuaikan konfigurasi database Anda.
 Jalankan migrasi untuk membuat tabel:
-bash
-Copy
-Edit
+
 php artisan migrate
 Generate key JWT:
-bash
-Copy
-Edit
+
 php artisan jwt:secret
 Jalankan server lokal:
-bash
-Copy
-Edit
+
 php artisan serve
 Endpoint API
 POST /api/register: Registrasi pengguna baru.
